@@ -1,10 +1,10 @@
 MINIKUBE PROJECTS:
 
-#Minikube with Docker Driver
+#1 Minikube with Docker Driver
 Description: A project showcasing the usage of Minikube with the Docker driver on Ubuntu.
 Purpose: Demonstrate how to set up and use Minikube with the Docker driver for Kubernetes development.
 
-#MINIKUBE_WITH_VIRTUALBOX (beginner project)
+#2 MINIKUBE_WITH_VIRTUALBOX (beginner project)
 Description: A beginner-friendly project using Minikube with the VirtualBox driver on Ubuntu.
 Purpose: Provide a simple introduction to Minikube and Kubernetes using the VirtualBox driver.
 
