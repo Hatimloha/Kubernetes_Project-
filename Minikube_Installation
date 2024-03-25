@@ -1,11 +1,25 @@
-#To install the latest minikube stable release on x86-64 Linux using binary download:
+#1 To install the latest minikube stable release on x86-64 Linux using binary download:
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 
-#Start your cluster
+#2 Start your cluster
 minikube start
 
-#Interact with your cluster
+#3 Interact with your cluster
 kubectl get po -A
 minikube kubectl -- get po -A
 minikube dashboard
+
+#4 Deploy applications (Check Repo):
+1. Service 
+2. Loadbalancer
+3. ingress
+
+#5 Manage your cluster
+minikube pause
+minikube unpause
+minikube stop
+minikube config set memory 9001
+minikube addons list
+minikube start -p aged --kubernetes-version=v1.16.1
+minikube delete --all
