@@ -1,0 +1,24 @@
+#Here's a step-by-step guide to installing Minikube on Ubuntu:
+#Step 1: Install Required Packages
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+
+#Step 2: Install VirtualBox (Hypervisor)
+sudo apt-get install virtualbox virtualbox-ext-pack
+
+Step 3: Install kubectl
+sudo snap install kubectl --classic
+
+Step 4: Install Minikube
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
+  && chmod +x minikube \
+  && sudo mv minikube /usr/local/bin/
+
+Step 5: Start Minikube
+minikube start --driver=virtualbox
+
+Step 6: Verify Installation
+kubectl cluster-info
+
+Step 7: Interact with Minikube
+kubectl get nodes
