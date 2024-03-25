@@ -1,3 +1,14 @@
-MINUKUBE PROJECT: I had uploaded 2 project for the minikube in ubuntu:
-1. Minikube with docker driver
-2. MINIKUBE_WITH_VIRTUALBOX (beginner project)
+MINIKUBE PROJECTS:
+
+#Minikube with Docker Driver
+Description: A project showcasing the usage of Minikube with the Docker driver on Ubuntu.
+Purpose: Demonstrate how to set up and use Minikube with the Docker driver for Kubernetes development.
+
+#MINIKUBE_WITH_VIRTUALBOX (beginner project)
+Description: A beginner-friendly project using Minikube with the VirtualBox driver on Ubuntu.
+Purpose: Provide a simple introduction to Minikube and Kubernetes using the VirtualBox driver.
+
+#COMMAND FILES:
+kubectl and Minikube Commands
+Description: Collection of commands used in the Minikube projects for managing Kubernetes clusters and resources.
+Purpose: Provide a reference for common commands used with kubectl and Minikube.
